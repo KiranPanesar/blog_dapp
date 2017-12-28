@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Feed</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+</head>
+<body class="container">
+  <h1>A Twitter Clone</h1>
+  <input type="text" id="username_field" placeholder="Enter your username" />
+  <p id="username_label"></p>
+  <a href="#" onclick="setUsername()" class="btn btn-primary">Change Username</a>
+
+  <br/><br/>
+
+  <textarea id="post_body_area" rows="4" cols="50" placeholder="Enter the HTML for your blog post">
+
+  </textarea>
+  <a href="#" onclick="createPost()" class="btn btn-primary">Create Post</a>
+
+</body>
+<script src="https://cdn.rawgit.com/ethereum/web3.js/develop/dist/web3.js"></script>
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+<script src="./app.js"></script>
+</html>
